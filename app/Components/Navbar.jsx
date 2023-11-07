@@ -75,7 +75,7 @@ function Navbar() {
                         </svg>} values={[{ name: 'Profile', onclick: () => router.push('profile') }, { name: 'Logout', onclick: () => setIsLogin(false) }]} />
 
                         :
-                        <Button btnName='SIGN IN' btnStyle='bg-black text-xs text-white md:px-6 px-2 py-2 rounded-md hover:bg-gray-500' onClick={() => setIsLogin(true)} />
+                        <Button btnName='SIGN IN' btnStyle='bg-slate-800 text-xs text-white md:px-6 px-2 py-2 rounded-md hover:bg-gray-500' onClick={() => setIsLogin(true)} />
                     }
                 </div>
 
@@ -87,7 +87,7 @@ function Navbar() {
                     </svg>}
 
                 {openToggle ?
-                    <div className=' block absolute top-[70px] right-5 w-44 p-5 py-10 bg-black bg-opacity-50 text-white space-y-10'>
+                    <div className=' block absolute top-[75px] right-10 w-44 p-5 py-10 bg-slate-800 z-20  text-slate-200 space-y-10 rounded-l-3xl rounded-br-3xl'>
                         <div >
                             <div className='flex justify-between ' onClick={() => router.push('cart')}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
@@ -123,7 +123,7 @@ function Navbar() {
                                         <label htmlFor="">Profile</label>
                                     </div>
                                     :
-                                    <Button btnName='SIGN IN' btnStyle='bg-white text-xs text-black md:px-6 px-2 py-2 rounded-md hover:bg-gray-500' onClick={() => setIsLogin(true)} />
+                                    <Button btnName='SIGN IN' btnStyle='bg-slate-100 text-xs text-black md:px-6 px-2 py-2 rounded-md hover:bg-gray-500' onClick={() => setIsLogin(true)} />
                                 }
                             </div>
                             {isLogin ? <hr /> : null}

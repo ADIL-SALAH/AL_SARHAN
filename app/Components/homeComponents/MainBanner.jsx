@@ -2,15 +2,16 @@
 'use client'
 
 import React from 'react'
-
+import CarouselComp from '../carousel/carousel'
 
 function MainBanner(props) {
 
-    const { banner } = props
+
+
 
     return (
-        <div>
-
+        <div className='pt-3 '>
+            <CarouselComp />
         </div>
     )
 }
