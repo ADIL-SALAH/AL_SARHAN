@@ -9,8 +9,8 @@ function DropDown(props) {
     const [selected, setSelected] = useState(null)
     return (
         <div className="relative inline-block">
-            <button className="relative z-10 block p-2 text-[#121212] bg-white border border-transparent rounded-full dark:text-slate-200 dark:bg-gray-700 focus:outline-none lg:hover:bg-gray-200 " onClick={() => setIsOpen(!isOpen)}>
-                {selected ? selected : name}
+            <button className="relative z-10 block p-2 text-[#121212] min-w-[100px] bg-white border border-transparent rounded-full dark:text-slate-200 dark:bg-gray-700 focus:outline-none lg:hover:bg-gray-200 " onClick={() => setIsOpen(!isOpen)}>
+                {selected ? selected : name.length > 8 ? name.slice(0, 12) + '...' : name}
             </button>
             {isOpen ?
                 <div className="absolute right-0 z-20 w-full min-w-fit py-2 mt-2 origin-top-right text-xs bg-black rounded-md shadow-xl dark:bg-gray-800 bg-opacity-90">

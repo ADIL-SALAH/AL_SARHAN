@@ -40,7 +40,7 @@ function CategoryComp() {
         },
     ]
     return (
-        <div className="flex overflow-x-auto space-x-10 md:justify-around md:px-10 py-10 px-5">
+        <div className="flex overflow-x-auto space-x-10 md:justify-around mt-5 md:px-10 py-10 px-5">
             {categoryList.map((item, index) => (
                 <div key={index} className="space-y-3 text-center">
                     <img
