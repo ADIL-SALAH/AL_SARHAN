@@ -35,7 +35,7 @@ function NewOffers() {
     return (
         <div className='lg:p-10 p-5 mt-5 lg:px-40 '>
             <h1 className='font-semibold lg:text-xl text-lg uppercase m-3'>New Offers</h1>
-            <div className='md:h-auto h-[600px] overflow-auto space-y-5 '>
+            <div className='md:h-auto h-[600px] overflow-auto scrollbar-none space-y-5 '>
 
                 <div className='grid md:grid-cols-4 grid-cols-2  gap-5 '>
                     <div className='col-span-2 relative'>

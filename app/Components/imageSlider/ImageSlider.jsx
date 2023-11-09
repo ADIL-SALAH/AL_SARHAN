@@ -9,7 +9,7 @@ function ImageSlider(props) {
             <div className="overflow-auto scroll-smooth md:scrollbar-none scrollbar-thumb-gray-200 scrollbar-track-slate-100 ">
                 <div className="flex space-x-4 " style={{ width: "1750px" }}>
                     {data?.map((item, index) => (
-                        <div key={index} className={`bg-gray-50 p-8 space-y-4 hover:bg-slate-100 `}>
+                        <div key={index} className={`bg-gray-50 p-8 space-y-4 hover:bg-slate-100 w-64`}>
                             <div className="border border-b-2 flex justify-center items-center  border-b-black border-x-0 border-t-0">
                                 <img src={item.img} alt="" className={`${imgStyle} transition-transform hover:scale-125`} />
                             </div>
