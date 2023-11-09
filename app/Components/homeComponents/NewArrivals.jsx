@@ -6,53 +6,72 @@ function NewArrivals() {
     const newArrivals = [
         {
             img: '/home/new arrivals/1.png',
-            category: 'Monitor ',
-            Desc: 'Starting from 67,999*'
+            name: 'Monitor ',
+            offer: '50% off',
+            offerPrice: 'AED 110',
+            price: 'AED 110',
+
         },
         {
             img: '/home/new arrivals/2.png',
-            category: 'Toys',
-            Desc: 'Starting from 10'
+            name: 'Toys',
+            offer: '50% off',
+            offerPrice: 'AED 99.99'
+            , price: 'AED 99.99'
         },
         {
             img: '/home/new arrivals/3.png',
-            category: 'Ladies Hand Bag',
-            Desc: 'Starting from 999*'
+            name: 'Ladies Hand Bag',
+            offer: '50% off',
+            offerPrice: 'AED 192.09',
+            price: 'AED 192.09'
         },
         {
             img: '/home/new arrivals/4.png',
-            category: 'Cookery',
-            Desc: 'Starting from 1999*'
+            name: 'Cookery',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
         {
             img: '/home/new arrivals/3.png',
-            category: 'Mens shoes',
-            Desc: 'Starting from 999*'
+            name: 'Mens shoes',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
         {
             img: '/home/new arrivals/1.png',
-            category: 'Monitor',
-            Desc: 'Starting from 999*'
+            name: 'Monitor',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
         {
             img: '/home/new arrivals/2.png',
-            category: 'Toys',
-            Desc: 'Starting from 999*'
+            name: 'Toys',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
         {
             img: '/home/new arrivals/3.png',
-            category: 'Ladies Hand Bag',
-            Desc: 'Starting from 999*'
+            name: 'Ladies Hand Bag',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
         {
             img: '/home/new arrivals/4.png',
-            category: 'Cookery',
-            Desc: 'Starting from 999*'
+            name: 'Cookery',
+            offer: '50% off',
+            offerPrice: 'AED 152.09',
+            price: 'AED 152.09'
         },
     ]
     return (
         <div>
-            <Imageviewer data={newArrivals} head='New Arrivals|shoes' imgStyle='w-28 h-36' />
+            <Imageviewer data={newArrivals} head='New Arrivals | shoes' imgStyle='w-auto h-36' />
         </div>
     )
 }

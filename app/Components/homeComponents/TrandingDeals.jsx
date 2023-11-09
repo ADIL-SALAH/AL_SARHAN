@@ -5,55 +5,60 @@ function TrandingDeals() {
 
     const topDeals = [
         {
-            img: '/home/topDeals/1.png',
-            category: 'Monitor ',
+            img: '/home/trendingDeals/1.png',
+            name: 'Monitor ',
             Desc: 'Starting from 67,999*'
         },
         {
-            img: '/home/topDeals/2.png',
-            category: 'Toys',
+            img: '/home/trendingDeals/2.png',
+            name: 'Toys',
             Desc: 'Starting from 10'
         },
         {
-            img: '/home/topDeals/3.png',
-            category: 'Ladies Hand Bag',
+            img: '/home/trendingDeals/3.png',
+            name: 'Ladies Hand Bag',
             Desc: 'Starting from 999*'
         },
         {
-            img: '/home/topDeals/4.png',
-            category: 'Cookery',
+            img: '/home/trendingDeals/4.png',
+            name: 'Cookery',
             Desc: 'Starting from 1999*'
         },
         {
-            img: '/home/topDeals/5.png',
-            category: 'Mens shoes',
+            img: '/home/trendingDeals/5.png',
+            name: 'Mens shoes',
             Desc: 'Starting from 999*'
         },
         {
-            img: '/home/topDeals/1.png',
-            category: 'Monitor',
+            img: '/home/trendingDeals/1.png',
+            name: 'Monitor',
             Desc: 'Starting from 999*'
         },
         {
-            img: '/home/topDeals/2.png',
-            category: 'Toys',
+            img: '/home/trendingDeals/2.png',
+            name: 'Toys',
             Desc: 'Starting from 999*'
         },
         {
-            img: '/home/topDeals/3.png',
-            category: 'Ladies Hand Bag',
+            img: '/home/trendingDeals/3.png',
+            name: 'Ladies Hand Bag',
             Desc: 'Starting from 999*'
         },
         {
-            img: '/home/topDeals/4.png',
-            category: 'Cookery',
+            img: '/home/trendingDeals/4.png',
+            name: 'Cookery',
+            Desc: 'Starting from 999*'
+        },
+        {
+            img: '/home/trendingDeals/4.png',
+            name: 'Cookery',
             Desc: 'Starting from 999*'
         },
     ]
 
     return (
         <div>
-            <ImageSlider head='Trending Deals' data={topDeals} imgStyle='w-20 h-24 ' />
+            <ImageSlider head='Trending Deals' data={topDeals} imgStyle='w-auto h-24 ' />
         </div>
     )
 }

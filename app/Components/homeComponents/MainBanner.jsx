@@ -4,7 +4,7 @@
 import React from 'react'
 import CarouselComp from '../carousel/carousel'
 
-function MainBanner(props) {
+function MainBanner() {
 
 
 
